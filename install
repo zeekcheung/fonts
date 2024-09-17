@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+target_dir=$HOME/.local/share/fonts
+
+mkdir -p "$target_dir" && unzip -q -o -d "$target_dir" \*.zip
